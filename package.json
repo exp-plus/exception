@@ -1,0 +1,10 @@
+{
+  "name": "@exp-plus/exception",
+  "version": "0.0.2",
+  "description": "Error Enum",
+  "main": "index.js",
+  "repository": "https://github.com/exp-plus/exception.git",
+  "author": "kayorl <kayorl@163.com>",
+  "license": "MIT",
+  "private": false
+}
