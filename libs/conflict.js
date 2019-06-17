@@ -8,7 +8,7 @@ const BaseError = require('./base-error');
  */
 class Conflict extends BaseError {
   constructor(message, error) {
-    super(403, 'Conflict', message, error);
+    super(409, 'Conflict', message, error);
   }
 }
 

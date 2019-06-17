@@ -8,7 +8,7 @@ const BaseError = require('./base-error');
  */
 class NotFound extends BaseError {
   constructor(message, error) {
-    super(400, 'Not Found', message, error);
+    super(404, 'Not Found', message, error);
   }
 }
 
